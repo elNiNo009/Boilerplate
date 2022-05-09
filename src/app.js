@@ -2,13 +2,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import IndecisionApp from './components/IndecsionApp'
-
 import 'normalize.css/normalize.css'
 import './Styles/styles.scss'
 
+import AppRouter from './Routers/AppRouter'
 
-ReactDOM.render(<IndecisionApp />, document.getElementById('app'))
+ 
+
+
+ReactDOM.render(<AppRouter/>, document.getElementById('app'))
 
 
 
